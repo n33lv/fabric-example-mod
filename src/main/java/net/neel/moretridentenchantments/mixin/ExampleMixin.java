@@ -1,7 +1,7 @@
-package net.neel.moreTridentEnchantments.mixin;
+package net.neel.moretridentenchantments.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
-import net.neel.moreTridentEnchantments.MoreTridentEnchantments;
+import net.neel.moretridentenchantments.MoreTridentEnchantments;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

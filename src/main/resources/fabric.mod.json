@@ -13,13 +13,16 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "MIT",
+  "license": "MIT License",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.neel.moretridentenchantments.moreTridentEnchantments"
+      "net.neel.moretridentenchantments.MoreTridentEnchantments"
+    ],
+    "client": [
+      "net.neel.moretridentenchantments.MoreTridentEnchantmentsClient"
     ]
   },
   "mixins": [
