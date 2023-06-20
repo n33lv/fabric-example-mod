@@ -1,6 +1,8 @@
 package net.neel.moretridentenchantments;
 
 import net.fabricmc.api.ModInitializer;
+import net.neel.moretridentenchantments.item.ModItemGroup;
+import net.neel.moretridentenchantments.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,7 +21,8 @@ public class MoreTridentEnchantments implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		ModItemGroup.registerItemGroups();
+		ModItems.registerModItems();
 
 	}
 }
